@@ -1,0 +1,17 @@
+.button {
+    color: $primary;
+
+    i {
+        display: inline-block;
+        transition: all 0.2s ease-in;
+    }
+
+    &:hover {
+        color: $primary;
+        text-decoration: none;
+
+        i {
+            transform: translateX(4px);
+        }
+    }
+}

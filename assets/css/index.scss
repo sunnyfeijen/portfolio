@@ -1,0 +1,16 @@
+@import "~/assets/css/_variables";
+
+// Bootstrap and its default variables
+@import "node_modules/bootstrap/scss/bootstrap";
+// @import "/node_modules/bootstrap-vue/dist/bootstrap-vue.css"; // todo use this?
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+@import "~/assets/css/button";
+
+:root {
+    --space-xs: #{$spacer / 4};
+    --space-s: #{$spacer / 2};
+    --space-m: #{$spacer};
+    --space-l: #{$spacer * 2};
+    --space-xl: #{$spacer * 4};
+}
