@@ -20,7 +20,6 @@
                                     <span>github</span>
                                     <i class="bi-arrow-right"></i>
                                 </a>
-                                <span class="text-muted">(vooral private)</span>
                             </div>
                             <a class="button" href="/CV.pdf" target="_blank" rel="noopener">
                                 <span>CV</span>

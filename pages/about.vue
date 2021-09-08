@@ -23,7 +23,7 @@
           <h2>Over mij</h2>
           <p>Hi, ik ben Sunny Feijen.</p>
           <p>Ik ben inmiddels {{ age }} jaar, momenteel aan het werk bij <a class="button" href="https://www.koek.nl" target="_blank" rel="noopener"><span>Koek</span><i class="bi-arrow-right"></i></a><br>
-Sinds 2017 werk ik als creatieve front-end developer, hierbij focus ik me vooral op de experience en draag dan ook regelmatig mijn steentje bij aan de UX van een project.
+Sinds 2017 werk ik als creatieve front-end developer, hierbij focus ik me vooral op de experience en draag dan ook regelmatig mijn steentje bij aan de UX en het concept van een project.
           </p>
 
           <p>Usability vind ik heel belangrijk en heb altijd mijn gedachte bij de eindgebruiker. Ik vind het dan ook belangrijk dat er een goede balans is tussen de wensen van de klant en eindgebruikers.</p>
