@@ -15,3 +15,11 @@
         }
     }
 }
+
+button {
+    &.close {
+        border-radius: $btn-border-radius;
+        text-shadow: none;
+        opacity: 1;
+    }
+}

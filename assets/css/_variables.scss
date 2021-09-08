@@ -1,4 +1,58 @@
+/* Colors */
+// Theme
 $theme-colors: (
-  "primary": #0074d9,
-  "danger": #ff4136
+  "primary": #725DFF,
+  "danger": #ff4136,
+  "dark": #16161e,
 );
+
+$primary: #725DFF;
+$primary-200: #B9AEFF !default;
+$primary-gradient: linear-gradient(60deg, $primary 0, #9c00dd 100%) !default;
+
+// Grays
+$gray-50: #E6E5E8 !default;
+$gray-100: #BFBFC5;
+$gray-200: #95949E;
+$gray-300: #6B6977;
+$gray-400: #4B4959;
+$gray-500: #2B293C;
+$gray-600: #262436;
+$gray-700: #201F2E;
+$gray-800: #1A1927;
+$gray-900: #16161e;
+
+// Body
+$body-bg: $gray-900;
+$body-color: $gray-50;
+
+$text-muted: $gray-400;
+
+/* Font */
+$font-family-sans-serif: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-serif: 'Halant', serif !default;
+
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 600;
+
+$font-size-base: 1rem;
+$h3-font-size: $font-size-base * 1.5;
+$h3-font-weight: 400;
+
+$h4-font-size: $font-size-base * 1.2;
+$h4-font-weight: 600;
+
+$display4-weight: 600;
+
+
+/* Links */
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: $link-color;
+$link-hover-decoration: none;
+
+/* Toasts */
+$toast-padding-y: .75rem;
+
+/* Navbar */
+$navbar-height: 56px !default;
