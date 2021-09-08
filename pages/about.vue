@@ -9,7 +9,7 @@
             <picture ref="parallax-target" class="bg-cover">
               <source srcset="https://sunnyfeijen.nl/wp-content/uploads/2021/09/IMG_1408-e1500216678220.webp" type="image/webp">
               <source srcset="https://sunnyfeijen.nl/wp-content/uploads/2017/07/IMG_1408-e1500216678220.jpg" type="image/jpeg"> 
-              <img src="https://sunnyfeijen.nl/wp-content/uploads/2017/07/IMG_1408-e1500216678220.jpg">
+              <img src="https://sunnyfeijen.nl/wp-content/uploads/2017/07/IMG_1408-e1500216678220.jpg" alt="Picture of Sunny">
             </picture>
           </div>
         </div>

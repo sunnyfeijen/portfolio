@@ -11,18 +11,18 @@
                                 <span>info@sunnyfeijen.nl</span>
                                 <i class="bi-reply"></i>
                             </div>
-                            <a class="button" href="https://www.instagram.com/sunnyfeijen/" target="_blank" rel="nofollow">
+                            <a class="button" href="https://www.instagram.com/sunnyfeijen/" target="_blank" rel="noopener">
                                 <span>instagram</span>
                                 <i class="bi-arrow-right"></i>
                             </a>
                             <div>
-                                <a class="button" href="https://github.com/sunnyfeijen" target="_blank" rel="nofollow">
+                                <a class="button" href="https://github.com/sunnyfeijen" target="_blank" rel="noopener">
                                     <span>github</span>
                                     <i class="bi-arrow-right"></i>
                                 </a>
                                 <span class="text-muted">(vooral private)</span>
                             </div>
-                            <a class="button" href="/CV.pdf" target="_blank" rel="nofollow">
+                            <a class="button" href="/CV.pdf" target="_blank" rel="noopener">
                                 <span>CV</span>
                                 <i class="bi-arrow-right"></i>
                             </a>

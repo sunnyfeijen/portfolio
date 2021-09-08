@@ -26,7 +26,7 @@ export default {
         href: 'https://fonts.gstatic.com',
       },
       {
-        rel: 'stylesheet',
+        rel: 'preload',
         href: 'https://fonts.googleapis.com/css2?family=Halant:wght@400;500;600;700&family=Nunito:wght@400;600&display=swap'
       },
     ],
