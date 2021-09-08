@@ -1,0 +1,29 @@
+.sticky-container {
+    padding: 12rem 0;
+    position: relative;
+}
+
+.box-container {
+    width: 150px;
+    height: 150px;
+    top: calc(50% - 75px);
+    left: calc(50% - 75px);
+    position: absolute;
+    overflow: hidden;
+}
+
+.box-container-text {
+    z-index: 1;
+}
+
+.box-container-bg {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: $gray-800;
+    z-index: -2;
+    transition: transform 0.4s ease-out, border-radius 0.3s ease-out;
+    border-radius: 50%;
+}

@@ -1,0 +1,33 @@
+.navbar {
+  height: $navbar-height;
+
+  a {
+    font-weight: 500;
+    position: relative;
+  
+    &:hover, &.nuxt-link-exact-active {
+      &:after {
+        width: 110%;
+        left: -5%;
+      }
+    }
+  
+    &:after {
+      transition: width 0.2s ease;
+      -webkit-transition: width 0.2s ease;
+  
+      position: absolute;
+      display: block;
+      background-image: $primary-gradient;
+      right: -5%;
+      width: 0;
+      bottom: -2px;
+      content: "";
+      height: 2px;
+    }
+  }
+}
+
+.offset-header {
+  padding-top: ($navbar-height + 40px);
+}

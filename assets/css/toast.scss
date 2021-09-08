@@ -1,0 +1,45 @@
+.b-toast-info {
+    &.b-toast-solid .toast {
+        border-color: $gray-700;
+    }
+
+    .toast {
+        overflow: hidden; // for border radius
+
+        .toast-header {
+            color: $gray-800;
+            background-color: $primary-200;
+            border-radius: 0;
+            border: none;
+        }
+
+        button.close {
+            color: inherit;
+
+            &:hover {
+                background-color: rgba($black, 0.2);
+            }
+        }
+    }
+}
+
+.b-toaster.b-toaster-top-right {
+    @include media-breakpoint-down(xs) {
+        // override position on XS
+        top: unset;
+        bottom: 0;
+        
+
+        .b-toaster-slot {
+            max-width: 100%;
+            width: 100%;
+            top: unset;
+            bottom: $b-toaster-offset-bottom;
+    
+            .b-toast, .toast {
+                max-width: unset;
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.tag-repeater {
+    margin-left: calc(var(--space-s) * -1); // invert
+}
+
+.tag {
+    border-radius: 2px;
+    padding: 4px;
+    margin: var(--space-s);
+    background-color: $gray-700;
+    color: $primary-200;
+}

@@ -1,0 +1,20 @@
+.hero {
+    @extend .offset-header;
+    padding-bottom: 40px;
+    height: 100vh;
+
+    .image-container {
+      top: -40px;
+      z-index: -1;
+
+      @include media-breakpoint-up(sm) {
+        top: 0;
+      }
+    }
+
+    @include media-breakpoint-up(sm) {
+      padding-top: 90px;
+      padding-bottom: 90px;
+      height: auto;
+    }
+  }

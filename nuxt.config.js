@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfolio',
+    title: 'Sunny Feijen',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -12,8 +12,34 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { 
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+      },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Halant:wght@400;500;600;700&family=Nunito:wght@400;600&display=swap'
+      },
+    ],
+    script: [
+      {
+          src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js',
+          defer: true,
+      },
+      {
+          src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js',
+          defer: true,
+      }
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -24,6 +50,9 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    {src: '~/plugins/animations.js'},
+    {src: '~/plugins/date.js'},
+    {ssr: false, src: '~plugins/hello' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -36,7 +65,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/bootstrap
-    // 'bootstrap-vue/nuxt', // todo check custom load
+    'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
@@ -49,7 +78,15 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      lang: 'en',
+      name: 'Sunny\'s portfolio',
+      short_name: '🌞 portfolio',
+      background_color: '#16161e',
+    },
+    meta: {
+      name: 'Sunny\'s portfolio',
+      author: 'Sunny Feijen',
+      theme_color: '#16161e',
     }
   },
 

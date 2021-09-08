@@ -1,0 +1,24 @@
+.gradient-text {
+    display: inline-block; // size background
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-size: 100%;
+    -webkit-box-decoration-break: clone;
+    background-image: $primary-gradient;
+}
+
+.nuxt-link-exact-active {
+    color: $primary;
+}
+
+h3, h4, h5, h6 {
+    font-family: $font-family-base;
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: $h4-font-weight;
+}
