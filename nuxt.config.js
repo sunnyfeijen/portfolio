@@ -14,8 +14,8 @@ export default {
     link: [
       { 
         rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico'
+        type: 'image/png',
+        href: '/favicon.png'
       },
       {
         rel: 'preconnect',
@@ -80,7 +80,7 @@ export default {
     manifest: {
       lang: 'en',
       name: 'Sunny\'s portfolio',
-      short_name: '🌞 portfolio',
+      short_name: 'Sunny\'s portfolio',
       background_color: '#16161e',
     },
     meta: {

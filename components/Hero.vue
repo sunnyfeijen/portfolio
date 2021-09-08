@@ -14,7 +14,7 @@
 
         <div class="image-container offset-backdrop col-10 offset-1 col-sm-3 offset-sm-1">
           <div class="parallax-container ar-3-4">
-            <div ref="parallax-target" class="bg-cover filter-cover" style="background-image: url('http://sunnyfeijen.nl/wp-content/uploads/2017/07/image6.jpg')"></div>
+            <div ref="parallax-target" class="bg-cover" style="background-image: url('http://sunnyfeijen.nl/wp-content/uploads/2017/07/image6.jpg')"></div>
           </div>
         </div>
 
