@@ -47,7 +47,7 @@ Sinds 2017 werk ik als creatieve front-end developer, hierbij focus ik me vooral
 export default {
   data () {
     return {
-        age: '',
+        age: '28',
     }
   },
   head () {

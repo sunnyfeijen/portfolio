@@ -40,7 +40,7 @@ export default {
   },
   data () {
     return {
-        age: '',
+        age: '28',
     }
   },
   head () {
