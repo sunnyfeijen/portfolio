@@ -7,9 +7,9 @@
         <div class="image-container offset-backdrop col-11 offset-1 col-sm-8 offset-sm-4 pb-5">
           <div class="parallax-container ar-16-9">
             <picture ref="parallax-target" class="bg-cover">
-              <source srcset="https://sunnyfeijen.nl/wp-content/uploads/2021/09/IMG_1408-e1500216678220.webp" type="image/webp">
-              <source srcset="https://sunnyfeijen.nl/wp-content/uploads/2017/07/IMG_1408-e1500216678220.jpg" type="image/jpeg"> 
-              <img src="https://sunnyfeijen.nl/wp-content/uploads/2017/07/IMG_1408-e1500216678220.jpg" alt="Picture of Sunny">
+              <source srcset="~/assets/images/profile2.webp" type="image/webp">
+              <source srcset="~/assets/images/profile2.jpeg" type="image/jpeg"> 
+              <img src="~/assets/images/profile2.jpeg" alt="Picture of Sunny">
             </picture>
           </div>
         </div>

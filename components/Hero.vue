@@ -15,9 +15,9 @@
         <div class="image-container offset-backdrop col-10 offset-1 col-sm-3 offset-sm-1">
           <div class="parallax-container ar-3-4">
             <picture ref="parallax-target" class="bg-cover">
-              <source srcset="https://sunnyfeijen.nl/wp-content/uploads/2021/09/image6.webp" type="image/webp">
-              <source srcset="https://sunnyfeijen.nl/wp-content/uploads/2017/07/image6.jpg" type="image/jpeg"> 
-              <img src="https://sunnyfeijen.nl/wp-content/uploads/2017/07/image6.jpg" alt="Picture of Sunny">
+              <source srcset="~/assets/images/profile.webp" type="image/webp">
+              <source srcset="~/assets/images/profile.jpg" type="image/jpeg"> 
+              <img src="~/assets/images/profile.jpg" alt="Picture of Sunny">
             </picture>
           </div>
         </div>
